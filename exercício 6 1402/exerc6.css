@@ -1,0 +1,23 @@
+body {
+    background-color: pink; 
+    width: 400px; /* largura da página */
+    padding-left: 350px;
+    padding-top: 150px; /* espaçamento interno acima */
+    color: purple
+}
+
+div {
+   
+    margin-bottom: 30px; /*Espaçamento para separar as informações  */
+}
+
+input {
+    background: purple;
+}
+#divGeral {    
+    
+    background-color: white;
+    border-radius:20px;
+    padding:50px; 
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br" > <!--Definição da linguagem-->
+<head>
+    <meta charset="utf-8"/> <!-- Permitir o uso de ç e pontução -->
+    <title> Exercício 6</title> <!-- Adicionar titúlo-->
+    <link rel= "stylesheet" href="exerc6.css"/>  <!-- Sintaxe para referenciar um arquivo de estilo -->
+    <script src="exerc6.js"></script> <!-- Sintaxe para referenciar um arquivo de js-->
+
+</head>
+<body> 
+    
+
+ <div id = "divGeral"  > 
+     <div><!--Divisão inicial para receber salário -->
+        Informe o salário fixo <input type= "number" id="salario" />
+
+    </div>
+
+    <div> <!--Divisão inicial para receber total de vendas-->
+        Informe total de vendas <input type="number" id="vendas" />
+
+    </div> <!-- Divisão para receber o percentual-->
+    <div>Informe o percentual <input type="number" id= "percentual" />
+
+    </div> 
+    
+    <div> <!--Divisão para calcular e inserir botão-->
+        <button onclick="calcular()"> Calcular </button>
+
+    </div>
+    <div> <!-- div de saída dos dados -->
+        <p id="total"></p>
+
+    </div>
+</div>
+</body>
+
+</html>
